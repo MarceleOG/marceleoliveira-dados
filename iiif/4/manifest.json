@@ -1,6 +1,6 @@
 {
-    "@context": "http://iiif.io/api/presentation/3/context.json",
-    "id": "http://marceleoliveira-dados.vercel.app/4/manifest.json",
+    "@context": "https://iiif.io/api/presentation/3/context.json",
+    "id": "https://marceleoliveira-dados.vercel.app/4/manifest.json",
     "type": "Manifest",
     "label": {
         "none": [
@@ -9,7 +9,7 @@
     },
     "thumbnail": [
         {
-            "id": "http://marceleoliveira-dados.vercel.app/4/6f5a1d833b3e365a72471917bbce8f65/full/300,225/0/default.jpg",
+            "id": "https://marceleoliveira-dados.vercel.app/4/6f5a1d833b3e365a72471917bbce8f65/full/300,225/0/default.jpg",
             "type": "Image",
             "format": "image/jpeg",
             "height": 225,
@@ -29,31 +29,31 @@
     ],
     "items": [
         {
-            "id": "http://marceleoliveira-dados.vercel.app/4/canvas/0",
+            "id": "https://marceleoliveira-dados.vercel.app/4/canvas/0",
             "type": "Canvas",
             "height": 3216,
             "width": 4288,
             "items": [
                 {
-                    "id": "http://marceleoliveira-dados.vercel.app/4/canvas/0/annotation-page",
+                    "id": "https://marceleoliveira-dados.vercel.app/4/canvas/0/annotation-page",
                     "type": "AnnotationPage",
                     "items": [
                         {
-                            "id": "http://marceleoliveira-dados.vercel.app/4/annotation/0",
+                            "id": "https://marceleoliveira-dados.vercel.app/4/annotation/0",
                             "type": "Annotation",
                             "motivation": "painting",
-                            "target": "http://marceleoliveira-dados.vercel.app/4/canvas/0",
+                            "target": "https://marceleoliveira-dados.vercel.app/4/canvas/0",
                             "body": {
-                                "id": "http://marceleoliveira-dados.vercel.app/4/6f5a1d833b3e365a72471917bbce8f65/full/2000,1500/0/default.jpg",
+                                "id": "https://marceleoliveira-dados.vercel.app/4/6f5a1d833b3e365a72471917bbce8f65/full/2000,1500/0/default.jpg",
                                 "type": "Image",
                                 "format": "image/jpeg",
                                 "height": 1500,
                                 "width": 2000,
                                 "service": [
                                     {
-                                        "id": "http://marceleoliveira-dados.vercel.app/4/6f5a1d833b3e365a72471917bbce8f65",
+                                        "id": "https://marceleoliveira-dados.vercel.app/4/6f5a1d833b3e365a72471917bbce8f65",
                                         "type": "ImageService3",
-                                        "profile": "http://iiif.io/api/image/3/level0.json"
+                                        "profile": "https://iiif.io/api/image/3/level0.json"
                                     }
                                 ]
                             }
