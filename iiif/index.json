@@ -1,0 +1,57 @@
+{
+    "@context": "http://iiif.io/api/presentation/3/context.json",
+    "id": "http://marceleoliveira-dados.vercel.app/index.json",
+    "type": "Collection",
+    "label": {
+        "none": [
+            "Marcele Oliveira"
+        ]
+    },
+    "thumbnail": [
+        {
+            "id": "http://marceleoliveira-dados.vercel.app/1/ccd27b38604f536d4fd229ac88ff93ae/full/300,225/0/default.jpg",
+            "type": "Image",
+            "format": "image/jpeg",
+            "height": 225,
+            "width": 300
+        }
+    ],
+    "items": [
+        {
+            "id": "http://marceleoliveira-dados.vercel.app/1/manifest.json",
+            "type": "Manifest",
+            "label": {
+                "none": [
+                    "IMS__1"
+                ]
+            }
+        },
+        {
+            "id": "http://marceleoliveira-dados.vercel.app/2/manifest.json",
+            "type": "Manifest",
+            "label": {
+                "none": [
+                    "Viagem__3"
+                ]
+            }
+        },
+        {
+            "id": "http://marceleoliveira-dados.vercel.app/3/manifest.json",
+            "type": "Manifest",
+            "label": {
+                "none": [
+                    "Viagem__2"
+                ]
+            }
+        },
+        {
+            "id": "http://marceleoliveira-dados.vercel.app/4/manifest.json",
+            "type": "Manifest",
+            "label": {
+                "none": [
+                    "Viagem__1"
+                ]
+            }
+        }
+    ]
+}

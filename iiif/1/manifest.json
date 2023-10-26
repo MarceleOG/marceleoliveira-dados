@@ -1,0 +1,66 @@
+{
+    "@context": "http://iiif.io/api/presentation/3/context.json",
+    "id": "http://marceleoliveira-dados.vercel.app/1/manifest.json",
+    "type": "Manifest",
+    "label": {
+        "none": [
+            "IMS__1"
+        ]
+    },
+    "thumbnail": [
+        {
+            "id": "http://marceleoliveira-dados.vercel.app/1/ccd27b38604f536d4fd229ac88ff93ae/full/300,225/0/default.jpg",
+            "type": "Image",
+            "format": "image/jpeg",
+            "height": 225,
+            "width": 300
+        }
+    ],
+    "homepage": [
+        {
+            "type": "Text",
+            "format": "text/html",
+            "label": {
+                "none": [
+                    "Object homepage"
+                ]
+            }
+        }
+    ],
+    "items": [
+        {
+            "id": "http://marceleoliveira-dados.vercel.app/1/canvas/0",
+            "type": "Canvas",
+            "height": 3216,
+            "width": 4288,
+            "items": [
+                {
+                    "id": "http://marceleoliveira-dados.vercel.app/1/canvas/0/annotation-page",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "http://marceleoliveira-dados.vercel.app/1/annotation/0",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "target": "http://marceleoliveira-dados.vercel.app/1/canvas/0",
+                            "body": {
+                                "id": "http://marceleoliveira-dados.vercel.app/1/ccd27b38604f536d4fd229ac88ff93ae/full/2000,1500/0/default.jpg",
+                                "type": "Image",
+                                "format": "image/jpeg",
+                                "height": 1500,
+                                "width": 2000,
+                                "service": [
+                                    {
+                                        "id": "http://marceleoliveira-dados.vercel.app/1/ccd27b38604f536d4fd229ac88ff93ae",
+                                        "type": "ImageService3",
+                                        "profile": "http://iiif.io/api/image/3/level0.json"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

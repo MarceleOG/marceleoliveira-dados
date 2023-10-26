@@ -1,0 +1,66 @@
+{
+    "@context": "http://iiif.io/api/presentation/3/context.json",
+    "id": "http://marceleoliveira-dados.vercel.app/3/manifest.json",
+    "type": "Manifest",
+    "label": {
+        "none": [
+            "Viagem__2"
+        ]
+    },
+    "thumbnail": [
+        {
+            "id": "http://marceleoliveira-dados.vercel.app/3/428c55d3820bc28828bad4540ce711a7/full/130,300/0/default.jpg",
+            "type": "Image",
+            "format": "image/jpeg",
+            "height": 300,
+            "width": 130
+        }
+    ],
+    "homepage": [
+        {
+            "type": "Text",
+            "format": "text/html",
+            "label": {
+                "none": [
+                    "Object homepage"
+                ]
+            }
+        }
+    ],
+    "items": [
+        {
+            "id": "http://marceleoliveira-dados.vercel.app/3/canvas/0",
+            "type": "Canvas",
+            "height": 4288,
+            "width": 1870,
+            "items": [
+                {
+                    "id": "http://marceleoliveira-dados.vercel.app/3/canvas/0/annotation-page",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "http://marceleoliveira-dados.vercel.app/3/annotation/0",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "target": "http://marceleoliveira-dados.vercel.app/3/canvas/0",
+                            "body": {
+                                "id": "http://marceleoliveira-dados.vercel.app/3/428c55d3820bc28828bad4540ce711a7/full/872,2000/0/default.jpg",
+                                "type": "Image",
+                                "format": "image/jpeg",
+                                "height": 2000,
+                                "width": 872,
+                                "service": [
+                                    {
+                                        "id": "http://marceleoliveira-dados.vercel.app/3/428c55d3820bc28828bad4540ce711a7",
+                                        "type": "ImageService3",
+                                        "profile": "http://iiif.io/api/image/3/level0.json"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
