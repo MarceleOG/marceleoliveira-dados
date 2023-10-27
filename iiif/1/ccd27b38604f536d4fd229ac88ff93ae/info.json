@@ -1,9 +1,9 @@
 {
-  "@context": "https://iiif.io/api/image/3/context.json",
+  "@context": "http://iiif.io/api/image/3/context.json",
   "id": "https://marceleoliveira-dados.vercel.app/1/ccd27b38604f536d4fd229ac88ff93ae",
   "type": "ImageService3",
   "profile": "level0",
-  "protocol": "https://iiif.io/api/image",
+  "protocol": "http://iiif.io/api/image",
   "tiles": [
     {
       "scaleFactors": [

@@ -1,5 +1,5 @@
 {
-    "@context": "https://iiif.io/api/presentation/3/context.json",
+    "@context": "http://iiif.io/api/presentation/3/context.json",
     "id": "https://marceleoliveira-dados.vercel.app/2/manifest.json",
     "type": "Manifest",
     "label": {
@@ -53,7 +53,7 @@
                                     {
                                         "id": "https://marceleoliveira-dados.vercel.app/2/e01ff6a00663e55c0e0a032f7e9c3003",
                                         "type": "ImageService3",
-                                        "profile": "https://iiif.io/api/image/3/level0.json"
+                                        "profile": "http://iiif.io/api/image/3/level0.json"
                                     }
                                 ]
                             }
